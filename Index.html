@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vito's Hostal</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #2e2e2e;
+      color: #d8d8d8;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 480px;
+      padding: 20px;
+      border-radius: 20px;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.03);
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+      margin: 20px;
+    }
+
+    .logo {
+      max-width: 80%;
+      height: auto;
+      margin-bottom: 20px;
+      filter: drop-shadow(0 0 10px rgba(255,255,255,0.2));
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #d8d8d8;
+    }
+
+    .subtitle {
+      font-size: 1rem;
+      color: #aaa;
+      margin-bottom: 25px;
+    }
+
+    p {
+      font-size: 1rem;
+      margin-bottom: 25px;
+      color: #d8d8d8;
+      line-height: 1.5;
+    }
+
+    .call-button {
+      background-color: #d8d8d8;
+      color: #2e2e2e;
+      padding: 15px 20px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      border-radius: 12px;
+      font-weight: bold;
+      display: inline-block;
+      transition: background-color 0.3s ease;
+    }
+
+    .call-button:hover {
+      background-color: #bfbfbf;
+    }
+
+    .divider {
+      width: 80%;
+      height: 1px;
+      background-color: #555;
+      margin: 20px auto;
+    }
+
+    .info-section {
+      font-size: 0.95rem;
+      color: #aaa;
+      margin-top: 15px;
+    }
+
+    .info-section span {
+      display: block;
+      margin: 5px 0;
+    }
+
+    @media screen and (max-width: 400px) {
+      h1 {
+        font-size: 1.6rem;
+      }
+      .call-button {
+        font-size: 1rem;
+        padding: 12px 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="imagenes/Vito´s hostal logo.PNG" alt="Logo de Vito's Hostal" class="logo"/>
+
+    <h1>Bienvenidos a Vito's Hostal</h1>
+    <div class="subtitle">Tu lugar de descanso ideal</div>
+
+    <p>Relájate en un ambiente acogedor y moderno. Estamos ubicados en una zona tranquila, perfecta para viajeros, turistas y familias.</p>
+
+    <a href="tel:+34123456789" class="call-button">📞 Llamar para reservar</a>
+
+    <div class="divider"></div>
+
+    <div class="info-section">
+      <span>📍 Calle Cruz Verde 3, 28600, Navalcarnero-Madrid</span>
+      <span>🕒 Atención: 24h</span>
+    </div>
+  </div>
+
+</body>
+</html>
